@@ -41,7 +41,6 @@ class SEO_FacebookDomainInsights_SiteTree_DataExtension extends DataExtension
 
         // Facebook App ID
         if ($config->FacebookAppID) {
-
             $metadata .= $owner->MarkupComment('Facebook Insights');
             $metadata .= $owner->MarkupFacebook('fb:app_id', $config->FacebookAppID, false);
 
@@ -51,9 +50,6 @@ class SEO_FacebookDomainInsights_SiteTree_DataExtension extends DataExtension
                     $metadata .= $owner->MarkupFacebook('fb:admins', $admin->FacebookProfileID, false);
                 }
             }
-
         }
-
     }
-
 }

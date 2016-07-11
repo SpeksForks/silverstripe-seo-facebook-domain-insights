@@ -45,7 +45,5 @@ class SEO_FacebookDomainInsights_SiteConfig_DataExtension extends DataExtension
             GridField::create('FacebookAdmins', 'Facebook Administrators', $owner->FacebookAdmins())
                 ->setConfig(GridFieldConfig_RelationEditor::create())
         ));
-
     }
-
 }

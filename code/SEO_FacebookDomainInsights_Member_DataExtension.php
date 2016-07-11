@@ -40,7 +40,5 @@ class SEO_FacebookDomainInsights_Member_DataExtension extends DataExtension
 
         // remove FacebookAdmin from user profile
         $fields->removeByName('FacebookAdminID');
-
     }
-
 }
